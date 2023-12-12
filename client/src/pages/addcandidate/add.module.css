@@ -1,0 +1,51 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+   
+}
+.btn{
+    background-color:lightblue;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+.btn:active{
+    font-size: 13px;
+}
+.addContainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: antiquewhite;
+    width: 200px;
+    padding: 30px;
+    border-radius: 7px;
+}
+.input{
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+}
+.errorMessage{
+    color: red;
+    
+}
+.successMessage{
+    color: green;
+}
